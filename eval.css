@@ -1,0 +1,287 @@
+body{
+	margin:0;
+}
+
+@font-face{
+	font-family: "Bernina";
+	src:url("./fonts/BerninaSans-Web-CondensedBold.woff2");
+}
+@font-face {
+font-family: 'GothamHTF-Book';
+font-style: normal;
+font-weight: normal;
+src:url('./fonts/GothamHTF-Book.woff');
+}
+.fond{
+	background-color:cyan;
+
+	background-image:url("./img/background.jpg");
+	background-repeat: 	no-repeat;
+	background-size: 	100% 100%;	
+	height:500px;
+	width: 100%;	
+}
+
+.txtTravers{
+	float: right;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 0.5%;
+	transform: rotate(20deg);
+	border-radius: 10px;
+	max-width:  200px;
+	max-height: 75px;
+	min-height: 75px;
+	min-width: 	200px;
+	background-color: #810426;
+	color: 	white;
+	font-family: "Bernina";
+}
+
+.bas{
+	width: 100%;
+	height: 450px;
+	background-color: #f7ffff;
+}
+
+.cont{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height:90px;
+}
+
+.s1cont{
+	width: 50%;
+	height: 90px;
+	background-image: url("./img/logo_texte.png");
+	background-repeat: 	no-repeat;
+
+}
+
+.buton{
+	margin-top: 10%;
+	border-radius: 2px;
+	color: #054456;
+}
+
+.titre{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.text{
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.fin{
+	display: flex;
+	justify-content: center;
+}
+
+.imagette{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 20%;
+ color:  #054456;
+ font-family: "GothamHTF-Book";
+}
+
+@media screen and (max-width: 768px){
+
+body{
+	margin:0;
+}
+.fond{
+	background-color:cyan;
+
+	background-image:url("./img/background.jpg");
+	background-repeat: 	no-repeat;
+	background-size: 	100% 100%;	
+	height:500px;
+	width: 100%;	
+}
+
+.txtTravers{
+	float: right;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 0.5%;
+	transform: rotate(20deg);
+	border-radius: 10px;
+	max-width:  200px;
+	max-height: 75px;
+	min-height: 75px;
+	min-width: 	200px;
+	background-color: #810426;
+	color: 	white;
+	font-family: "Bernina";
+}
+
+.bas{
+	width: 100%;
+	height: 450px;
+	background-color: #f7ffff;
+}
+
+.cont{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height:90px;
+}
+
+.s1cont{
+	min-width: 50%;
+	height: 90px;
+	background-image: url("./img/logo_texte.png");
+	background-repeat: 	no-repeat;
+
+}
+
+.buton{
+	margin-top: 10%;
+	border-radius: 2px;
+	color: #054456;
+	font-family: "Bernina";
+}
+
+.titre{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.text{
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.fin{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.imagette{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 20%;
+ color:  #054456;
+ font-family: "GothamHTF-Book";
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+body{
+	margin:0;
+}
+.fond{
+	background-color:cyan;
+
+	background-image:url("./img/background.jpg");
+	background-repeat: 	no-repeat;
+	background-size: 	100% 100%;	
+	height:500px;
+	width: 100%;	
+}
+
+.txtTravers{
+	float: right;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 0.5%;
+	transform: rotate(20deg);
+	border-radius: 10px;
+	max-width:  200px;
+	max-height: 75px;
+	min-height: 75px;
+	min-width: 	200px;
+	background-color: #810426;
+	color: 	white;
+	font-family: "Bernina";
+}
+
+.bas{
+	width: 100%;
+	height: 450px;
+	background-color: #f7ffff;
+}
+
+.cont{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height:90px;
+}
+
+.s1cont{
+	min-width: 50%;
+	height: 90px;
+	background-image: url("./img/logo_texte.png");
+	background-repeat: 	no-repeat;
+	font-family: "Bernina";
+
+}
+
+.buton{
+	margin-top: 10%;
+	border-radius: 2px;
+	color: #054456;
+	font-family: "Bernina";
+}
+
+.titre{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.text{
+	text-align: center;
+	color: #054456;
+	width: 60%;
+	margin-left: 20%;
+	font-family: "Bernina";
+}
+
+.fin{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.imagette{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 20%;
+ color:  #054456;
+ font-family: "GothamHTF-Book";
+}
+
+}
